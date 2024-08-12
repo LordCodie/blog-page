@@ -1,0 +1,35 @@
+:root {
+    --maize: #ffe74cff;
+    --night: #12130fff;
+    --seasalt: #fafafaff;
+    --argentinian-blue: #48acf0ff;
+    --red-pantone: #e71d36ff;
+    }
+    
+    body {
+        background-color: var(--seasalt);
+    }
+    
+    .logo-box-- {
+        background-color: var(--night);
+        color: var(--maize);
+        border-radius: 4px;
+    }
+    
+    .--textArea-block {
+        height: 450px;
+        background-color: var(--seasalt);
+    }
+    
+    .--title-input-block {
+        background-color: var(--seasalt);
+    }
+
+    .--main-image {
+        max-width: 90%;
+        max-height: fit-content;
+    }
+
+    .--profile-pic {
+        width: 50px;
+    }
